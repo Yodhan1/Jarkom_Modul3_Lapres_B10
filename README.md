@@ -1,6 +1,7 @@
 # Jarkom_Modul3_Lapres_B10
 Kelompok B10 Kelas Jarkom Tanpa Revisi
 topologi.sh
+
     # Switch
     uml_switch -unix switch1 > /dev/null < /dev/null &
     uml_switch -unix switch2 > /dev/null < /dev/null &
@@ -23,6 +24,7 @@ topologi.sh
     xterm -T BANYUWANGI -e linux ubd0=BANYUWANGI,jarkom umid=BANYUWANGI eth0=daemon,,,switch3 mem=64M &
 
 bye.sh 
+
     uml_mconsole SURABAYA halt
     uml_mconsole MALANG halt
     uml_mconsole MOJOKERTO halt
@@ -33,6 +35,7 @@ bye.sh
 uml_mconsole BANYUWANGI halt
 
 langkah langkah pemulaan
+
     SURABAYA{
 
         nano /etc/sysctl.conf
@@ -125,6 +128,7 @@ langkah langkah pemulaan
 
 jawaban no 2
 SURABAYA
+
     nano /etc/sysctl.conf
     net.ipv4.conf.all.accept_source_route = 1
     sysctl -p
@@ -135,6 +139,7 @@ SURABAYA
     
 
 TUBAN
+
     apt-get install isc-dhcp-server -y
     nano /etc/default/isc-dhcp-server
     INTERFACES="eth0"
@@ -145,7 +150,7 @@ TUBAN
 
 jawaban no 3 4 5 6
 
-nano /etc/dhcp/dhcpd.conf
+    nano /etc/dhcp/dhcpd.conf
     subnet 192.168.0.0 netmask 255.255.255.0 {
         range 192.168.0.10 192.168.0.100;
         range 192.168.0.110 192.168.0.200;
@@ -164,7 +169,10 @@ nano /etc/dhcp/dhcpd.conf
         default-lease-time 600;
         max-lease-time 1200;
     }
-service isc-dhcp-server stop
-service isc-dhcp-server start
-service isc-dhcp-relay stop
-service isc-dhcp-relay start
+di TUBAN
+    service isc-dhcp-server stop
+    service isc-dhcp-server start
+di SURABAYA
+    service isc-dhcp-relay stop
+    service isc-dhcp-relay start
+    
