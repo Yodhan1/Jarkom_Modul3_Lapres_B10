@@ -1,5 +1,7 @@
 # Jarkom_Modul3_Lapres_B10
 Kelompok B10 Kelas Jarkom Tanpa Revisi
+
+## NO 1
 topologi.sh
 
     # Switch
@@ -126,7 +128,7 @@ langkah langkah pemulaan
     apt-get update
 
 
-jawaban no 2
+## NO 2
 SURABAYA
 
     nano /etc/sysctl.conf
@@ -147,8 +149,7 @@ TUBAN
         subnet 10.151.83.0 netmask 255.255.255.0 {  
             option routers 10.151.83.92; 
         }
-
-jawaban no 3 4 5 6
+NO 3 4 5 6
 
     nano /etc/dhcp/dhcpd.conf
     subnet 192.168.0.0 netmask 255.255.255.0 {
