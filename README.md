@@ -235,7 +235,7 @@ nano /etc/squid3/squid.conf
 
 jika membuka google.com, akan redirect ke monta.if.its.ac.id
 
-![](.//img/10_1.PNG)
+![](.//img/10.PNG)
 
 ## NO 11
 
