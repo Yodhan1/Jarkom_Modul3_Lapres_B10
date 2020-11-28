@@ -149,7 +149,7 @@ TUBAN
         subnet 10.151.83.0 netmask 255.255.255.0 {  
             option routers 10.151.83.92; 
         }
-NO 3 4 5 6
+## NO 3 4 5 6
 
     nano /etc/dhcp/dhcpd.conf
     subnet 192.168.0.0 netmask 255.255.255.0 {
