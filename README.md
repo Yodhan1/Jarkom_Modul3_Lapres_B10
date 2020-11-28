@@ -182,16 +182,19 @@ di SURABAYA
 ## NO 7
 
 Untuk membuat ProxyServer, gunakan UML MOJOKERTO, lalu ketik
+
 ``` htpasswd -c /etc/squid3/passwd userta_b10 ```
 
 ![](.//img/7.PNG)
 
 isi pada
+
 ``` /etc/squid3/passwd ```
 
 ![](.//img/7_3.PNG)
 
 lalu nano, dan ubah configurasi menjadi seperti di gambar
+
 ``` nano /etc/squid/squid.conf ```
 
 ![](.//img/7_2.PNG)
@@ -203,11 +206,13 @@ lalu coba pada browser
 ## NO 8 dan 9
 
 ubah configurasi acl menjadi seperti gambar
+
 ``` nano /etc/squid3/acl.conf ```
 
 ![](.//img/8.PNG)
 
 lalu pada
+
 ``` nano /etc/squid/squid.conf ```
 
 ubah seperti gambar
@@ -217,6 +222,7 @@ ubah seperti gambar
 ## NO 10
 
 Ubah configurasi menjadi seperti pada gambar
+
 ``` nano /etc/squid3/squid.conf ```
 
 ![](.//img/10_bener.PNG)
@@ -230,23 +236,29 @@ Ubah configurasi menjadi seperti pada gambar
 Pindah ke UML MALANG, lalu lakukan seperti pada modul 2, 
 
 update package
+
 ``` apt-get update ```
 
 install bind
+
 ``` apt-get install bind9 -y ```
 
 lalu ubah configurasi menjadi seperti gambar
+
 ``` nano /etc/bind/named.conf.local ```
 
 ![](.//img/12.PNG)
 
 lalu
+
 ``` mkdir /etc/bind/prak3 ```
 
 copy db.local ke folder prak3 dan ubah namanya
+
 ``` cp /etc/bind/db.local /etc/bind/prak3/janganlupa-ta.b10.pw ```
 
 lalu configurasi seperti pada gambar
+
 ``` /etc/bind/prak3/janganlupa-ta.b10.pw ```
 
 ![](.//img/12_1.PNG)
