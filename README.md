@@ -209,15 +209,17 @@ lalu coba pada browser
 
 ubah configurasi acl menjadi seperti gambar
 
-``` nano /etc/squid3/acl.conf ```
+``` 
+nano /etc/squid3/acl.conf 
+```
 
 ![](.//img/8.PNG)
 
-lalu pada
+lalu pada squid.conf juga ubah seperti gambar
 
-``` nano /etc/squid/squid.conf ```
-
-ubah seperti gambar
+``` 
+nano /etc/squid/squid.conf 
+```
 
 ![](.//img/8_1.PNG)
 
@@ -225,7 +227,9 @@ ubah seperti gambar
 
 Ubah configurasi menjadi seperti pada gambar
 
-``` nano /etc/squid3/squid.conf ```
+``` 
+nano /etc/squid3/squid.conf 
+```
 
 ![](.//img/10_bener.PNG)
 
@@ -239,29 +243,41 @@ Pindah ke UML MALANG, lalu lakukan seperti pada modul 2,
 
 update package
 
-``` apt-get update ```
+``` 
+apt-get update 
+```
 
 install bind
 
-``` apt-get install bind9 -y ```
+```
+apt-get install bind9 -y
+```
 
 lalu ubah configurasi menjadi seperti gambar
 
-``` nano /etc/bind/named.conf.local ```
+```
+nano /etc/bind/named.conf.local
+```
 
 ![](.//img/12.PNG)
 
 lalu
 
-``` mkdir /etc/bind/prak3 ```
+```
+mkdir /etc/bind/prak3
+```
 
 copy db.local ke folder prak3 dan ubah namanya
 
-``` cp /etc/bind/db.local /etc/bind/prak3/janganlupa-ta.b10.pw ```
+```
+cp /etc/bind/db.local /etc/bind/prak3/janganlupa-ta.b10.pw
+```
 
 lalu configurasi seperti pada gambar
 
-``` /etc/bind/prak3/janganlupa-ta.b10.pw ```
+```
+/etc/bind/prak3/janganlupa-ta.b10.pw
+```
 
 ![](.//img/12_1.PNG)
 
