@@ -183,19 +183,21 @@ di SURABAYA
 
 Untuk membuat ProxyServer, gunakan UML MOJOKERTO, lalu ketik
 
-``` htpasswd -c /etc/squid3/passwd userta_b10 ```
+``` 
+htpasswd -c /etc/squid3/passwd userta_b10 
+```
 
 ![](.//img/7.PNG)
 
-isi pada
-
-``` /etc/squid3/passwd ```
+isi pada ``` /etc/squid3/passwd ``` adalah
 
 ![](.//img/7_3.PNG)
 
 lalu nano, dan ubah configurasi menjadi seperti di gambar
 
-``` nano /etc/squid/squid.conf ```
+``` 
+nano /etc/squid/squid.conf 
+```
 
 ![](.//img/7_2.PNG)
 
