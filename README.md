@@ -32,7 +32,7 @@ bye.sh
     uml_mconsole SIDOARJO halt
     uml_mconsole GRESIK halt
     uml_mconsole MADIUN halt
-uml_mconsole BANYUWANGI halt
+    uml_mconsole BANYUWANGI halt
 
 langkah langkah pemulaan
 
@@ -170,9 +170,11 @@ jawaban no 3 4 5 6
         max-lease-time 1200;
     }
 di TUBAN
+
     service isc-dhcp-server stop
     service isc-dhcp-server start
 di SURABAYA
+
     service isc-dhcp-relay stop
     service isc-dhcp-relay start
     
