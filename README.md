@@ -239,7 +239,10 @@ jika membuka google.com, akan redirect ke monta.if.its.ac.id
 
 ## NO 11
 
+MOJOKERTO
 
+    wget 10.151.36.202/ERR_ACCESS_DENIED
+    cp ERR_ACCESS_DENIED /usr/share/squid/errors/English
 
 ## NO 12
 
